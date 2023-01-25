@@ -191,31 +191,21 @@ Hi, I'm a Frontend Developer. <br> I learn quick and am always ready for some ch
 </div>
 </section>
 <section class="pop-up">
-            <div class="popup-overlay"><!-- //оверлей - отображение формы на затемненном фоне -->
-              <div class="popWindow subscribe_window"><!-- //основное окно формы Подписки -->
-                <p class="subcsribe-text">Subscribe to receive news and information</p>
-                <form class="subscribe-form" autocomplete="off">
-                  <div>
-                    <input type="text" id="name-subscribe" name="Name" placeholder=" " required>
-                    <label for="name-subscribe">Name <span>*</span></label>
-                  </div>
-                  <div>
-                    <input type="email" id="email-subscribe" name="E-mail" placeholder=" " required>
-                    <label for="email-subscribe">Email <span>*</span></label>
-                  </div>
-                  <div class="aligncenter">
-                    <button type="submit" class="btn"><i class="fa fa-check" aria-hidden="true"></i> Subscribe</button>
-                  </div>
-                  <div class="req-fields"><sup>*</sup> required fields</div>
-                </form>
-                <div class="close-btn">&times;</div>
-              </div><!-- /subscribe_window -->
-            </div><!-- /popup-overlay --> 
-            <div class="popWindow thank_you_window"><!-- //благодарственное окно после успешной отправки формы -->
-                <p class="thank_you_title">Thank you for subscribing!</p>
-                <p class="thank_you_body">We've sent some useful tips to your email. Go ahead and check them now!</p>
-                <div class="close-btn">&times;</div>
-              </div><!-- /thank_you_window -->
+    <div class="contact-us">
+        <form action="#">
+          <button id="close-btn">X</button>
+          <label for="Name">NAME <em>&#x2a;</em></label>
+          <input id="Name" name="Name" required="" type="text" />
+          <label for="Email">EMAIL <em>&#x2a;</em></label>
+          <input id="Email" name="Email" required="" type="email" />
+          <label for="Phone">PHONE</label>
+          <input id="Phone" name="Phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" type="tel" />
+          <label for="Note">YOUR MESSAGE <em>&#x2a;</em></label>
+          <textarea id="Note" name="Note" required="" rows="4"></textarea>
+          <h3> Please provide all the information about your issue you can. </h3>
+          <button id="submit">SUBMIT</button>
+        </form>
+      </div>
      
 </section>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
