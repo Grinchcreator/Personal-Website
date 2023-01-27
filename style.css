@@ -114,7 +114,9 @@ display: flex;
 flex-wrap: wrap;
 }
 .aboutme{
-padding: 4.5em;
+padding-left: 7em;
+padding-right: 7em;
+padding-top: 0;
 }
 .about h2{
 font-size: 1.5em;
@@ -170,7 +172,8 @@ flex-basis: 33.333333333%;
 }
 } 
 .about-footer{
-padding: 3em;
+padding-left: 22em;
+padding-right: 22em;
 }
 .mepics{
 display: inline-block;
@@ -178,6 +181,7 @@ display: inline-block;
 .mepics img{
 width: 16%;
 margin: 4em;
+margin-top: 0;
 }
 .mepics img:hover{
 transform: translateY(-8px);
@@ -731,7 +735,7 @@ padding: 3em;
 font-size: 2.6em;
 }
 .aboutme{
-padding:2em;
+padding: 3.5em;
 }
 .about h2{
 font-size: 4em;
@@ -746,7 +750,8 @@ font-size: 2em;
 width: 40em;
 }
 .about-footer{
-padding: 0;
+padding: 3.5em;
+
 }
 .mepics img{
 margin: 0.5em;
