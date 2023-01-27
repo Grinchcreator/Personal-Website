@@ -683,7 +683,7 @@ margin-right: 15em;
 }
 
 
-@media (max-width: 480px){
+@media (min-width: 412px){
 html{
 width:fit-content;
 }
