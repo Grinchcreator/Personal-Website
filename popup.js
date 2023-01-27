@@ -3,7 +3,7 @@ let $popClose = $("#close-btn");
 let $popWindow = $(".contact-us");
 let $submit = $("#submit")
 
-let $subscribeWindow = $(".subscribe_window");
+let $submitWindow = $(".subscribe_window");
 let $popThankYouWindow = $(".thank_you_window");
 
 
@@ -12,15 +12,15 @@ $popUp.on("click", function(){
     $popWindow.fadeIn();
   });
 
+//Close on click
 $(function() {
-  // Close Pop-Up after clicking on the button "Close"
   $popClose.on("click", function() {
     $popWindow.fadeOut();
   });
  
 
  
-  // Form Subscribe
+  // Form submit
   $submit.on("click", function(){
     var th = $(this);
     $.ajax({
@@ -28,14 +28,13 @@ $(function() {
       url: "mail.php",
       data: th.serialize()
     }).done(function() {
-      // после успешной отправки скрываем форму подписки и выводим окно с благодарностью за заполнение формы
+      //hide the submit form and put the thank you form
       $popWindow.fadeOut();
       
       //$popThankYouWindow.fadeIn();
-      // используем куки на 30 дней, если человек заполнил форму
-      // для куки обязательно должен быть подключен jquery.cookie.min.js
+
      // $.cookie('hideTheModal', 'true', { expires: 30 });
-      // очищаем форму
+      // clean the form
     //  setTimeout(function() {
      //  th.trigger("reset");
       //}, 1000);
