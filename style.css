@@ -683,9 +683,11 @@ margin-right: 15em;
 }
 
 
-@media screen and (max-width: 480px){
+@media (max-width: 480px){
+html{
+width:fit-content;
+}
 body{
-
 margin: 0;}
 section{
 display: block;
@@ -702,18 +704,19 @@ display: block;
   }
   .logo
 {
-width: 60%;
-margin-left: 1em;
+width: 40%;
+margin-left: 2em;
+margin-top: 0em;
 }
 .container {
-    height: 3em;
+    height: 3.5em;
 }
 .navbar-menu ul{
-    margin-right: 0em;
-    margin-top: 0em;
+    margin-right: 2em;
+    margin-top: 1em;
     }
     .navbar-menu li{
-    font-size: 1em;
+    font-size: 1.2em;
     display: inline-block;
    margin-left: 0em;
     }
