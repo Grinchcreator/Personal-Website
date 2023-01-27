@@ -707,25 +707,27 @@ background-repeat: no-repeat;
 margin: 0;
 }
 .logo{
-width: 70%;
+width: 100%;
 margin-left: 1em;
-margin-top: 1em;
+margin-top: 2.8em;
 }
 .container{
-height: 8.75em;
+height: 10em;
 }
 .navbar-menu ul{
-margin-right: 2.3em;
-margin-top: 3em;
+display: flex;
 }
-.navbar-menu li{
-font-size: 1.5em;
+.navbar-menu ul li{
+font-size: 1.8em;
 display: inline-block;
- margin-left: 0em;
+margin-top: 1em;
+
+
+
 }
 .logoMain{
 width: 80%;
-margin-top: 7em;
+margin-top: 9em;
 }
 .logoMain:hover{
 width: 90%;
