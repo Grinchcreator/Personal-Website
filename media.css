@@ -1,3 +1,319 @@
+/*MEDIA*/
+
+/*iPad mini*/
+@media  (min-width: 1024px) and (min-height: 768px){
+.navbar-menu { 
+margin-right: 0em;
+}
+.logoMain{
+margin-top: 5em;
+}
+  
+.container-about{
+font-size: 1.5em;
+}
+.about p{
+font-size: 1em;
+}
+.item-body li{
+font-size: 0.8em;
+}
+.navbar-logo p{
+width: 15em;
+margin-left: 3em;
+font-size: 1em;
+}
+.foot{
+height: 20em;
+}
+.logo-footer{
+width: 50%;
+margin-left: 2em;
+}
+.thanks{
+margin-left: -7em;
+margin-right: 9em;
+}
+.thanks p{
+font-size: 1.5em;
+}
+.thanks a{
+display: flex;
+width: 12em;
+font-size: 1em;
+}
+.contact{
+margin-left: 3em;
+}
+.contact p{
+font-size: 1.5em;
+}
+.contact img{
+width: 35%;
+}
+}
+
+/*iPad Air*/
+@media (min-width: 1180px) and (min-height: 820px){
+.logoMain{
+margin-top: 5em;
+}
+.foot{
+height: 20em;
+}
+.about P{
+font-size: 1.2em;
+}
+.logo-footer{
+width: 50%;
+margin-left: 2em;
+}
+.thanks{
+margin-left: -2em;
+margin-right: 11em;
+}
+.thanks p{
+font-size: 1.5em;
+}
+.thanks a{
+display: flex;
+width: 12em;
+font-size: 1em;
+}
+.contact{
+margin-left: 3em;
+}
+.contact p{
+font-size: 1.5em;
+}
+.contact img{
+width: 35%;
+}}
+/*Surface Pro 7*/
+@media (min-width: 1366px) and (min-height: 912px){
+.thanks{
+margin-left: 2em;
+margin-right: 15em;
+}
+}
+
+/*Desktop 1366x768*/
+@media (min-width: 1366px) and (min-height: 760px){
+.about p{
+font-size: 1.2em;
+}
+.thanks{
+margin-left: 2em;
+margin-right: 15em;
+}
+}
+
+/*Desktop 1536x864*/
+@media (min-width: 1536px) and (min-height: 864px){
+.about p{
+font-size: 1.6em;
+}
+.thanks{
+margin-left: 10em;
+margin-right: 15em;
+}
+}
+
+/*Desktop 1440x900*/
+@media (min-width: 1440px) and (min-height: 900px){
+.about p{
+font-size: 1.3em;
+}
+.thanks{
+margin-left: 7em;
+margin-right: 15em;
+}
+}
+
+/*Desktop 1600x900*/
+@media (min-width: 1600px) and (min-height: 900px){
+.about p{
+font-size: 1.5em;
+}
+.thanks{
+margin-left: 11em;
+margin-right: 15em;
+}
+}
+
+/*Desktop 1290x1024*/
+@media (min-width: 1290px) and (min-height: 1024px){
+.thanks{
+margin-left: 0em;
+margin-right: 15em;
+} 
+}
+
+
+/*Desktop 2560x1440*/
+@media (min-width: 2560px) and (min-height: 1440px){
+.about p{
+font-size: 1.5em;
+}
+.thanks{
+margin-left: 7em;
+margin-right: 15em;
+} 
+}
+
+/*Desktop 1280x800*/
+@media (min-width: 1280px) and (min-height: 800px){
+.about p{
+font-size: 1.5em;
+}
+.thanks{
+margin-left: 2em;
+margin-right: 15em;
+} 
+}
+
+/*MOBILE DEVICES*/
+@media (max-width: 480px){
+html{
+width:fit-content;
+}
+body{
+margin: 0;
+}
+section{
+display: block;
+}
+.header{
+display: block;
+background-image: url(background.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+}
+.navbar{
+margin: 0;
+}
+.logo{
+width: 100%;
+margin-left: 1em;
+margin-top: 2.8em;
+}
+.container{
+height: 10em;
+}
+.navbar-menu ul{
+display: flex;
+}
+.navbar-menu ul li{
+font-size: 1.8em;
+display: inline-block;
+margin-top: 1em;
+}
+.logoMain{
+width: 80%;
+margin-top: 9em;
+}
+.logoMain:hover{
+width: 90%;
+}
+.container-about{
+padding: 3em;
+font-size: 2.6em;
+}
+.aboutme{
+padding: 3.5em;
+}
+.about h2{
+font-size: 4em;
+}
+.about p{
+font-size: 2.3em;
+}
+.item-body{
+font-size: 2em;
+}
+.post-item{
+width: 40em;
+}
+.about-footer{
+padding: 3.5em;
+}
+.mepics img{
+margin: 0.5em;
+width:30%;
+}
+.portfolio h2{
+font-size: 4em;
+margin: 0.5em;
+}
+.portfolio-card{
+width: 48em;
+height: 28em;
+}
+.portfolio-title{
+font-size: 2.5em;
+}
+.portfolio-info{
+font-size: 1.8em;
+}
+.portfolio-btn{
+font-size: 1.3em;
+}
+.foot{
+display: block;
+height: 70em;
+text-align: center;
+align-items: center;
+justify-content: center;
+line-height: 1.3;
+}
+.logo-footer{
+width: 60%;
+margin-left: 2em;
+}
+.navbar-logo p{
+margin-left: 1em;
+font-size: 1.6em;
+}
+.thanks{
+display: inline;
+vertical-align: middle;
+}
+.thanks p{
+font-size: 3em;
+text-align: center;
+margin-left: 0.7em;
+}
+.thanks a{
+margin-right: 1ems;
+text-align: center;
+font-size: 1.6em;
+}
+.contact{
+display: flexbox;
+text-align: center;
+align-items: center;
+justify-content: center;
+}
+.contact p{
+margin-left: 1em;
+font-size: 3em;
+text-align: center;
+}
+.contact li{
+display: inline-block;
+list-style-type: none;
+}
+.contact img{
+width: 65%;
+margin: 0.3em;
+}
+.contact-us{
+padding: 35em 5em;
+}
+}
+
+/*Desktop 1920x1080*/
+@media (min-width: 1920px) and (min-height: 1080px){
 body{
 margin: 0;
 line-height: 1.45;
@@ -114,9 +430,7 @@ display: flex;
 flex-wrap: wrap;
 }
 .aboutme{
-padding-left: 7em;
-padding-right: 7em;
-padding-top: 0;
+padding: 4.5em;
 }
 .about h2{
 font-size: 1.5em;
@@ -172,8 +486,7 @@ flex-basis: 33.333333333%;
 }
 } 
 .about-footer{
-padding-left: 22em;
-padding-right: 22em;
+padding: 3em;
 }
 .mepics{
 display: inline-block;
@@ -181,7 +494,6 @@ display: inline-block;
 .mepics img{
 width: 16%;
 margin: 4em;
-margin-top: 0;
 }
 .mepics img:hover{
 transform: translateY(-8px);
@@ -509,6 +821,125 @@ border: 1px solid #6bd4b1;
 -webkit-text-fill-color: #2A293E;
 -webkit-box-shadow: 0 0 0px 1000px #f8f4e5 inset;
 transition: background-color 5000s ease-in-out 0s;
+}}
+
+/*Vertical tablets*/
+@media (max-width: 820px) {
+html{
+width:fit-content;
+}
+body{
+margin: 0;
+}
+section{
+display: block;
+}
+.header{
+display: block;
+background-image: url(background.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+}
+.navbar{
+margin: 0;
+}  
+.logo{
+width: 120%;
+margin-left: 1em;
+margin-top: 2.5em;
+}
+.container{
+height: 10em;
+}
+.navbar-menu ul{
+display: flex;
+}
+.navbar-menu ul li{
+font-size: 1.6em;
+display: inline-block;
+margin-top: 1em;
+}
+.logoMain{
+width: 80%;
+margin-top: 9em;
+}
+.logoMain:hover{
+width: 90%;
+}
+.container-about{
+padding: 3em;
+font-size: 2.3em;
+}
+.aboutme{
+padding: 2em;
+}
+.about h2{
+font-size: 3em;
+}
+.about p{
+font-size: 2em;
+}
+.item-body{
+font-size: 1.5em;
 }
 
-
+.about-footer{
+padding: 2em;
+}
+.mepics img{
+margin: 0.5em;
+width:30%;
+}
+.foot{
+display: block;
+height: 70em;
+text-align: center;
+align-items: center;
+justify-content: center;
+line-height: 1.3;
+}
+.logo-footer{
+width: 60%;
+margin-left: 2em;
+}
+.navbar-logo p{
+margin-left: 1em;
+font-size: 1.6em;
+}
+.thanks{
+display: inline;
+vertical-align: middle;
+}
+.thanks p{
+font-size: 3em;
+text-align: center;
+margin-left: 0.7em;
+}
+.thanks a{
+margin-right: 1ems;
+text-align: center;
+font-size: 1.6em;
+}
+.contact{
+display: flexbox;
+text-align: center;
+align-items: center;
+justify-content: center;
+}
+.contact p{
+margin-left: 1em;
+font-size: 3em;
+text-align: center;
+}
+.contact li{
+display: inline-block;
+list-style-type: none;
+}
+.contact img{
+width: 65%;
+margin: 0.3em;
+}
+.contact-us{
+padding: 35em 5em;
+}
+}
