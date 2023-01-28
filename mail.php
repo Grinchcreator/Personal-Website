@@ -1,4 +1,7 @@
 <?php
+  $name = $_POST["name"];
+    $email = $_POST["email"];
+    $message = $_POST["message"];
 $EmailTo = "xgreenwich97@gmail.com";
 $Subject = "New Message Received";
 
