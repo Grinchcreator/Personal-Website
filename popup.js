@@ -9,37 +9,37 @@ let $popThankYouWindow = $(".thank_you_window");
 
 //Open on click
 $popUp.on("click", function(){
-    $popWindow.fadeIn();
-  });
+$popWindow.fadeIn();
+});
 
 //Close on click
 $(function() {
-  $popClose.on("click", function() {
-    $popWindow.fadeOut();
-  });
+$popClose.on("click", function() {
+$popWindow.fadeOut();
+}); });
  
 
  
-  // Form submit
-  $("form").submit (function(){
-    var th = $(this);
-    $.ajax({
-      type: "POST",
-      url: "mail.php",
-      data: th.serialize()
-    }).done(function() {
-      //hide the submit form and put the thank you form
-      alert ("Thank You!");
-      $popWindow.fadeOut();
-      
-      //$popThankYouWindow.fadeIn();
+// Form submit
+$("form").submit (function(){
+var th = $(this);
+$.ajax({
+type: "POST",
+url: "mail.php",
+data: th.serialize()
+}).done(function() {
+//hide the submit form and put the thank you form
+alert ("Thank You!");
+$popWindow.fadeOut();
 
-     // $.cookie('hideTheModal', 'true', { expires: 30 });
-      // clean the form
-    setTimeout(function() {
-     th.trigger("reset");
-    }, 1000);
-    });
-    return false;
-  });
+//$popThankYouWindow.fadeIn();
+
+ // $.cookie('hideTheModal', 'true', { expires: 30 });
+// clean the form
+setTimeout(function() {
+th.trigger("reset");
+}, 1000);
+});
+return false;
+ 
 });
