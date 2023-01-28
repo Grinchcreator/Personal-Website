@@ -51,6 +51,9 @@ font-size: 1.5em;
 .contact img{
 width: 35%;
 }
+.contact-us{
+padding: 5em 7em;
+}
 }
 
 /*iPad Air*/
@@ -88,13 +91,20 @@ font-size: 1.5em;
 }
 .contact img{
 width: 35%;
-}}
+}
+.contact-us{
+padding: 5em 7em;
+}
+}
 /*Surface Pro 7*/
 @media (min-width: 1366px) and (min-height: 912px){
 .thanks{
 margin-left: 2em;
 margin-right: 15em;
 }
+.contact-us{
+padding: 5em 7em;
+    }
 }
 
 /*Desktop 1366x768*/
@@ -940,6 +950,6 @@ width: 65%;
 margin: 0.3em;
 }
 .contact-us{
-padding: 35em 5em;
+padding: 5em 5em;
 }
 }
