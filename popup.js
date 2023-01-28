@@ -30,8 +30,6 @@ data: th.serialize()
 }).done(function() {
 //hide the submit form and put the thank you form
 alert ("Thank You!");
-$popWindow.fadeOut();
-
 //$popThankYouWindow.fadeIn();
 
  // $.cookie('hideTheModal', 'true', { expires: 30 });

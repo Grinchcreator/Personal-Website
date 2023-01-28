@@ -110,10 +110,13 @@ padding: 5em 7em;
 /*Desktop 1366x768*/
 @media (min-width: 1366px) and (min-height: 760px){
 .about p{
-font-size: 1.2em;
+font-size: 1.4em;
 }
+.item-body li{
+    font-size: 1.2em;
+    }
 .thanks{
-margin-left: 2em;
+margin-left: 12em;
 margin-right: 15em;
 }
 }
@@ -139,6 +142,7 @@ margin-left: 7em;
 margin-right: 15em;
 }
 }
+
 
 /*Desktop 1600x900*/
 @media (min-width: 1600px) and (min-height: 900px){
@@ -443,10 +447,10 @@ flex-wrap: wrap;
 padding: 4.5em;
 }
 .about h2{
-font-size: 1.5em;
+font-size: 1.7em;
 }
 .about p{
-font-size: 1.3em;
+font-size: 1.5em;
 }
 .post-item {
 text-align: left;
