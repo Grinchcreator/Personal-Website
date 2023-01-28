@@ -21,7 +21,7 @@ $(function() {
 
  
   // Form submit
-  $submit.on("click", function(){
+  $("form").submit (function(){
     var th = $(this);
     $.ajax({
       type: "POST",
